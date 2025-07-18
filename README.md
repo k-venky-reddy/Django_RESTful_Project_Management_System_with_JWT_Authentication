@@ -81,3 +81,12 @@ python manage.py runserver
 ```
 Now visit [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) and log in using your superuser credentials.
 ---
+
+## Contact Me
+
+Hi, I'm K. Venky Reddy — a passionate Django developer currently exploring scalable REST APIs and database-driven systems. This project was built to demonstrate my understanding of authentication, API design, and user-based data segregation.
+
+- Reach me at: kvenkateshreddydataengineer@gmail.com
+- GitHub: https://github.com/k-venky-reddy
+- LinkedIn: https://www.linkedin.com/in/k-venkatesh-reddy/
+
