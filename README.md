@@ -88,6 +88,3 @@ Hi, I'm Venkatesh Reddy. I developed this project to demonstrate my skills in au
 If you need any further information or assistance, feel free to contact me.
 
 - Reach me at: kvenkateshreddydataengineer@gmail.com
-- GitHub: https://github.com/k-venky-reddy
-- LinkedIn: https://www.linkedin.com/in/k-venkatesh-reddy/
-
