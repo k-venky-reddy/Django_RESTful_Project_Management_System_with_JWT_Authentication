@@ -2,25 +2,25 @@
 Project Description:
 This is a Django-based RESTful Project Management System designed to manage three core entities: Users, Clients, and Projects. 
 The system allows for:
-        --> Registration and management of clients.
-        --> Creation and assignment of projects to specific clients and users.
-        --> User-specific project views based on authentication.
-        --> Complete CRUD operations for Clients and Projects.
+      1. Registration and management of clients.
+      2. Creation and assignment of projects to specific clients and users.
+      3. User-specific project views based on authentication.
+      4. Complete CRUD operations for Clients and Projects.
 The system uses Djangos built-in admin for user management and Django REST Framework for building APIs, along with JWT for secure authentication.
 
 Features: 
-o	JWT (JSON Web Token) Authentication for Users.
-o	API endpoints for client registration, project creation, update, delete.
-o	Each project is tied to both a client and a user.
-o	Authenticated users can view only their assigned projects.
-o	Admin can manage all users, clients, and projects from the admin dashboard.
+1.JWT (JSON Web Token) Authentication for Users.
+2.API endpoints for client registration, project creation, update, delete.
+3.Each project is tied to both a client and a user.
+4.Authenticated users can view only their assigned projects.
+5.Admin can manage all users, clients, and projects from the admin dashboard.
 
 Tech Stack:
 Python 3.13+
-o	Django 4.2+
-o	Django REST Framework
-o	Simple JWT (for Authentication)
-o	MySQL Database
+1.Django 4.2+
+2.Django REST Framework
+3.Simple JWT (for Authentication)
+4.MySQL Database
 
 1️ Clone the Repository
 bash
