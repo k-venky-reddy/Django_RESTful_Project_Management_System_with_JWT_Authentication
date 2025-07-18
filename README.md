@@ -24,7 +24,7 @@ o	MySQL Database
 
 1️ Clone the Repository
 bash
-git clone https://github.com/your-username/project-management-system.git
+git clone https://github.com/k-venky-reddy/Django_Admin_Portal.git
 cd project-management-system
 
 2️ Create and Activate Virtual Environment
