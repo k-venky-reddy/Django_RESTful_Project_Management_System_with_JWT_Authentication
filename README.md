@@ -84,7 +84,8 @@ Now visit [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) and log i
 
 ## Contact Me
 
-Hi, I'm K. Venky Reddy — a passionate Django developer currently exploring scalable REST APIs and database-driven systems. This project was built to demonstrate my understanding of authentication, API design, and user-based data segregation.
+Hi, I'm Venkatesh Reddy. I developed this project to demonstrate my skills in authentication, API design, and user-specific data handling.
+If you need any further information or assistance, feel free to contact me.
 
 - Reach me at: kvenkateshreddydataengineer@gmail.com
 - GitHub: https://github.com/k-venky-reddy
