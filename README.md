@@ -16,11 +16,11 @@ Features:
 5.Admin can manage all users, clients, and projects from the admin dashboard.
 
 Tech Stack:
-Python 3.13 ,
-1.Django 4.2 , 
-2.Django REST Framework ,
-3.Simple JWT (for Authentication) ,
-4.MySQL Database 
+1.Python 3.13 ,
+2.Django 4.2 , 
+3.Django REST Framework ,
+4.Simple JWT (for Authentication) ,
+5.MySQL Database 
 
 1️ Clone the Repository
 bash
