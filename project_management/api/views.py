@@ -3,12 +3,12 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from .models import Client, Project
 from .serializers import ClientSerializer, ProjectSerializer
-
+# Client View Set
 class ClientViewSet(viewsets.ModelViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
     permission_classes = [permissions.IsAuthenticated]
-
+# Project View Set For CRUD Operations
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
