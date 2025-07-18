@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 from .models import Client, Project
-
+# Converts Django Models To JSON For API Responces
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
@@ -11,7 +11,7 @@ class ClientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Client
         fields = '__all__'
-
+# Project Serializer has user_ids for assigning users 
 class ProjectSerializer(serializers.ModelSerializer):
     users = UserSerializer(many=True, read_only=True)
     user_ids = serializers.PrimaryKeyRelatedField(queryset=User.objects.all(), many=True, write_only=True)
