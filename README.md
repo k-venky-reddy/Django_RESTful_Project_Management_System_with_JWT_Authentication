@@ -66,10 +66,10 @@ DATABASES = {
 ```
 ### 5️. Run Migrations
 ```bash
-python manage.py makemigrations api
+python manage.py makemigrations api  # Detect model changes
 ```
 ```bash
-python manage.py migrate
+python manage.py migrate # Apply database changes
 ```
 ### 6️. Create a Superuser
 ```bash
@@ -77,7 +77,7 @@ python manage.py createsuperuser
 ```
 ### 7️. Start the Development Server
 ```bash
-python manage.py runserver
+python manage.py runserver  # Start server
 ```
 Now visit [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) and log in using your superuser credentials.
 ---
